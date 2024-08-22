@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 16px;
+}
+#container{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    border: 3px solid #030303;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    background-color: #0004ff;
+    gap: 8px  18px;
+}
+
+.content{
+    background-color: #ff0000;
+    border: 1px solid #000000;
+    width: 18px; /* Tamaño del cuadrado */
+    height: 18px; /* Tamaño del cuadrado */
+    cursor: pointer; 
+    
+}   
+.over{
+    background-color: #0e0c0c;
+    border:1px solid #faf8f8;
+    width: 18px; /* Tamaño del cuadrado */
+    height: 18px; /* Tamaño del cuadrado */
+    cursor: pointer; 
+}
